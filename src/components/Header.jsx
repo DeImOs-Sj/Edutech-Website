@@ -34,7 +34,7 @@ export default function Header() {
                 </li>
             </ul>
             {/* Responsive Menu */}
-            <ul className={` duration-200 md:hidden fixed left-0 right-0 top-[80px] z-50 bg-white cursor-pointer  ${toggle ? 'left-[0]' : 'top-[-100%] ' }`}>
+            <ul className={` duration-200 md:hidden w-full fixed  top-[84px] z-50 bg-white cursor-pointer  ${toggle ? 'left-[0]' : 'left-[-100%] ' }`}>
                 <li className='p-5 hover:text-[#1ECBE1]'> 
                 About Us
                 </li>
